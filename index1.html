@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zia Ur Rehman | Front-End Visionary & SEO Expert</title>
+  
+  <!-- External Libraries -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body class="bg-gray-900 text-white">
+  <!-- Particle Background -->
+  <div id="particles-js" class="fixed inset-0 z-0"></div>
+
+  <!-- Navigation -->
+  <nav class="nav-glass">
+    <div class="nav-container">
+      <!-- Logo -->
+      <div class="logo">
+        <div class="logo-spinner">
+          <div class="logo-inner">
+            <span>Z</span>
+          </div>
+        </div>
+        <span class="logo-text">Zia Ur Rehman</span>
+      </div>
+      
+      <!-- Desktop Menu -->
+      <div class="desktop-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="assets/Zia-Ur-RehmanCv.pdf" download class="btn-cv">
+          <i class="fas fa-file-download"></i> CV
+        </a>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn" id="menuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-content">
+      <button class="close-menu-btn" id="closeMenu">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="mobile-nav-links">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+        <a href="assets/Zia-Ur-RehmanCv.pdf" download class="mobile-cv-btn">
+          Download CV
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero-section">
+    <div class="hero-bg-animation"></div>
+    
+    <div class="hero-container">
+      <div class="hero-content">
+        <!-- Animated Profile -->
+        <div class="hero-profile">
+          <div class="profile-ring">
+            <div class="profile-image">
+              <img src="D:\2bvision\WhatsApp Image 2026-01-10 at 7.36.36 AM.jpeg" alt="Zia Ur Rehman" class="profile-img">
+            </div>
+          </div>
+          
+          <!-- Floating Elements -->
+          <div class="floating-element code-element">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="floating-element seo-element">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          
+          <!-- Status -->
+          <div class="status-badge">
+            <div class="status-dot"></div>
+            <span>Available for work</span>
+          </div>
+        </div>
+        
+        <!-- Hero Text -->
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span>Hello, I'm</span>
+            <span class="gradient-text">Zia Ur Rehman</span>
+          </h1>
+          
+          <div class="hero-subtitle">
+            <span>I build </span>
+            <span class="text-cyan-400">beautiful</span>
+            <span>, </span>
+            <span class="text-blue-400">fast</span>
+            <span> & </span>
+            <span class="text-purple-400">SEO-optimized</span>
+            <span> websites</span>
+          </div>
+          
+          <p class="hero-description">
+            Front-End Developer & SEO Specialist with 1+ years of experience creating stunning, 
+            high-performance web experiences using modern technologies and best practices.
+          </p>
+          
+          <!-- CTA Buttons -->
+          <div class="hero-cta">
+            <a href="#contact" class="btn-primary">
+              <i class="fas fa-paper-plane"></i>
+              Hire Me
+            </a>
+            <a href="#projects" class="btn-secondary">
+              <i class="fas fa-eye"></i>
+              View Work
+            </a>
+          </div>
+          
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="https://linkedin.com/in/zia-ur-rehman-a8a277255" class="social-link linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/zia_ur_rehman_33/" class="social-link instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/ziaurrehman" class="social-link github">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:m.ziaurrehman635@gmail.com" class="social-link email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Scroll Indicator -->
+      <div class="scroll-indicator">
+        <a href="#about">
+          <span>Scroll</span>
+          <div class="scroll-arrow">
+            <div class="scroll-dot"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-badge">ABOUT ME</span>
+        <h2 class="section-title">
+          Crafting Digital <span class="gradient-text">Excellence</span>
+        </h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="about-content">
+        <!-- Profile Card -->
+        <div class="about-card" data-aos="fade-right">
+          <div class="card-header">
+            <div class="card-icon">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <div>
+              <h3>Professional Profile</h3>
+              <p>Front-End Developer & SEO Specialist</p>
+            </div>
+          </div>
+          
+          <p class="card-description">
+            With over 1 year of experience in freelance and internship roles, I specialize in creating 
+            responsive, SEO-optimized websites that deliver exceptional user experiences. My passion 
+            lies in merging beautiful design with cutting-edge technology.
+          </p>
+          
+          <!-- Stats -->
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-number">1+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">20+</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Client Satisfaction</div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Timeline -->
+        <div class="timeline" data-aos="fade-left">
+          <div class="timeline-item">
+            <div class="timeline-marker cyan"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h4>BS Information Technology</h4>
+                <span class="timeline-date">2022 - Present</span>
+              </div>
+              <p class="timeline-subtitle">Lahore Leads University</p>
+              <p>Currently pursuing degree with focus on web technologies and software development.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-marker purple"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h4>Front-End Developer & SEO Specialist</h4>
+                <span class="timeline-date">2024 - 2025</span>
+              </div>
+              <p class="timeline-subtitle">Shaheen Coders & Various Clients (Freelance)</p>
+              <p>Developed responsive websites with modern technologies and implemented SEO strategies for better rankings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section skills-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-badge purple">TECHNICAL EXPERTISE</span>
+        <h2 class="section-title">
+          My <span class="gradient-text purple">Skills</span>
+        </h2>
+        <div class="section-divider purple"></div>
+      </div>
+      
+      <div class="skills-grid">
+        <!-- Development Skills -->
+        <div class="skills-card" data-aos="fade-right">
+          <h3 class="skills-card-title">
+            <i class="fas fa-code"></i>
+            Development Skills
+          </h3>
+          
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="skill-info">
+                <span>HTML5 & CSS3</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-fill" data-width="95%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-bar">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-fill" data-width="85%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-bar">
+              <div class="skill-info">
+                <span>React</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-fill" data-width="80%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-bar">
+              <div class="skill-info">
+                <span>Tailwind CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-fill" data-width="90%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- SEO & Tools -->
+        <div class="skills-card" data-aos="fade-left">
+          <h3 class="skills-card-title">
+            <i class="fas fa-chart-line"></i>
+            SEO & Tools
+          </h3>
+          
+          <div class="skills-tags">
+            <h4>SEO Specialization</h4>
+            <div class="tags-container">
+              <span class="skill-tag green">On-Page SEO</span>
+              <span class="skill-tag green">Technical SEO</span>
+              <span class="skill-tag green">Page Speed</span>
+              <span class="skill-tag green">Core Web Vitals</span>
+            </div>
+          </div>
+          
+          <div class="skills-tags">
+            <h4>Additional Technologies</h4>
+            <div class="tags-container">
+              <span class="skill-tag blue">Bootstrap</span>
+              <span class="skill-tag blue">GitHub</span>
+              <span class="skill-tag blue">C++</span>
+              <span class="skill-tag blue">Visual Studio</span>
+              <span class="skill-tag purple">Machine Learning</span>
+              <span class="skill-tag purple">Deep Learning</span>
+            </div>
+          </div>
+          
+          <div class="languages">
+            <h4>Languages</h4>
+            <div class="language-circles">
+              <div class="language-circle">
+                <div class="circle-bg en">
+                  <span>EN</span>
+                </div>
+                <span>English</span>
+              </div>
+              <div class="language-circle">
+                <div class="circle-bg ur">
+                  <span>UR</span>
+                </div>
+                <span>Urdu</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section projects-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-badge pink">PORTFOLIO</span>
+        <h2 class="section-title">
+          Featured <span class="gradient-text pink">Projects</span>
+        </h2>
+        <div class="section-divider pink"></div>
+      </div>
+      
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-icon cyan">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3>Modern Business Website</h3>
+              <p>Responsive business site with SEO optimization and modern design.</p>
+              <div class="project-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+            
+            <div class="project-card-back cyan">
+              <h3>Project Details</h3>
+              <ul>
+                <li><i class="fas fa-check"></i> SEO Optimized</li>
+                <li><i class="fas fa-check"></i> Mobile Responsive</li>
+                <li><i class="fas fa-check"></i> Fast Loading</li>
+              </ul>
+              <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-icon purple">
+                <i class="fab fa-react"></i>
+              </div>
+              <h3>React Portfolio</h3>
+              <p>Interactive portfolio with animations and modern UI components.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Tailwind</span>
+                <span>Framer Motion</span>
+              </div>
+            </div>
+            
+            <div class="project-card-back purple">
+              <h3>Project Details</h3>
+              <ul>
+                <li><i class="fas fa-check"></i> Dark/Light Mode</li>
+                <li><i class="fas fa-check"></i> Smooth Animations</li>
+                <li><i class="fas fa-check"></i> Performance Optimized</li>
+              </ul>
+              <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-icon green">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3>SEO Landing Page</h3>
+              <p>High-conversion landing page optimized for search engines.</p>
+              <div class="project-tags">
+                <span>SEO</span>
+                <span>HTML5</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+            
+            <div class="project-card-back green">
+              <h3>Project Details</h3>
+              <ul>
+                <li><i class="fas fa-check"></i> 98 PageSpeed Score</li>
+                <li><i class="fas fa-check"></i> Core Web Vitals</li>
+                <li><i class="fas fa-check"></i> Conversion Optimized</li>
+              </ul>
+              <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Interactive Project Showcase -->
+      <div class="project-showcase" data-aos="fade-up">
+        <div class="showcase-header">
+          <h3>Interactive Project Viewer</h3>
+          <p>Hover over technologies to see project details</p>
+        </div>
+        <div class="tech-stack-interactive">
+          <div class="tech-item" data-project="1">
+            <i class="fab fa-html5"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="tech-item" data-project="2">
+            <i class="fab fa-css3-alt"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="tech-item" data-project="3">
+            <i class="fab fa-js"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="tech-item" data-project="4">
+            <i class="fab fa-react"></i>
+            <span>React</span>
+          </div>
+          <div class="tech-item" data-project="5">
+            <i class="fab fa-node-js"></i>
+            <span>Node.js</span>
+          </div>
+        </div>
+        <div class="project-preview" id="projectPreview">
+          <div class="preview-content">
+            <h4>Select a technology to view related projects</h4>
+            <p>Hover over any technology icon above</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section contact-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-badge orange">LET'S CONNECT</span>
+        <h2 class="section-title">
+          Get In <span class="gradient-text orange">Touch</span>
+        </h2>
+        <div class="section-divider orange"></div>
+      </div>
+      
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Contact Information</h3>
+          
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon cyan">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <p>Email</p>
+                <a href="mailto:m.ziaurrehman635@gmail.com">m.ziaurrehman635@gmail.com</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon purple">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <p>Phone</p>
+                <a href="tel:03224356616">0322-4356616</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon green">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <p>Location</p>
+                <span>Lahore, Pakistan</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="social-buttons">
+            <h4>Follow My Journey</h4>
+            <div class="social-btn-group">
+              <a href="https://linkedin.com/in/zia-ur-rehman-a8a277255" class="social-btn linkedin-btn">
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+              </a>
+              <a href="https://www.instagram.com/zia_ur_rehman_33/" class="social-btn instagram-btn">
+                <i class="fab fa-instagram"></i> Instagram
+              </a>
+              <a href="https://github.com/ziaurrehman" class="social-btn github-btn">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="contact-form-container" data-aos="fade-left">
+          <h3>Send a Message</h3>
+          
+          <form id="contactForm" class="contact-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" placeholder="John Doe" required>
+              </div>
+              
+              <div class="form-group">
+                <label>Your Email</label>
+                <input type="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label>Subject</label>
+              <input type="text" placeholder="Project Inquiry" required>
+            </div>
+            
+            <div class="form-group">
+              <label>Message</label>
+              <textarea placeholder="Your message here..." rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <!-- Logo -->
+        <div class="footer-logo">
+          <div class="footer-logo-spinner">
+            <div class="footer-logo-inner">
+              <span>Z</span>
+            </div>
+          </div>
+        </div>
+        
+        <h3>Zia Ur Rehman</h3>
+        <p class="footer-description">
+          Front-End Developer & SEO Specialist passionate about creating exceptional digital experiences.
+        </p>
+        
+        <!-- Social Links -->
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/zia-ur-rehman-a8a277255" class="footer-social-link">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.instagram.com/zia_ur_rehman_33/" class="footer-social-link">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://github.com/ziaurrehman" class="footer-social-link">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:m.ziaurrehman635@gmail.com" class="footer-social-link">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        
+        <!-- Contact Info -->
+        <div class="footer-contact">
+          <a href="mailto:m.ziaurrehman635@gmail.com">
+            <i class="fas fa-envelope"></i> m.ziaurrehman635@gmail.com
+          </a>
+          <span class="separator">•</span>
+          <a href="tel:03224356616">
+            <i class="fas fa-phone"></i> 0322-4356616
+          </a>
+          <span class="separator">•</span>
+          <a href="assets/Zia-Ur-RehmanCv.pdf" download>
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+        
+        <p class="copyright">
+          © <span id="currentYear"></span> Zia Ur Rehman. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- External JS -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Local JS -->
+  <script src="js/particles-config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/form-handler.js"></script>
+</body>
+
+</html>
